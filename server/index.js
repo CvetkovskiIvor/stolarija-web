@@ -27,6 +27,6 @@ app.get('/', (req, res) => {
   res.send('Hello World');
 })
 
-app.listen(8008, () => {
+app.listen(process.env.PORT || 8008, () => {
   console.log(`Server Started at ${8008}`)
 })
