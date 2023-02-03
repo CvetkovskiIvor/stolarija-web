@@ -44,11 +44,11 @@ router.get('/getOne/:id', async (req, res) => {
 })
 
 //Update by ID Method
-router.patch('/update/:id', (req, res) => {
+/*router.patch('/update/:id', (req, res) => {
   res.send('Update by ID API')
 })
 
 //Delete by IrouterD Method
 router.delete('/delete/:id', (req, res) => {
   res.send('Delete by ID API')
-})
+})*/
