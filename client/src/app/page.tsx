@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <main className={styles.main}>
+    /*<main className={styles.main}>
       <div className={styles.description}>
         <p>
           Get started by editing&nbsp;
@@ -86,6 +86,11 @@ export default function Home() {
           </p>
         </a>
       </div>
-    </main>
+    </main>*/
+    <>
+      <div>
+        <h1>DISI KORLE</h1>
+      </div>
+    </>
   )
 }
