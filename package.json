@@ -1,5 +1,5 @@
 {
 	"scripts": {
-    		"start": "cd server/ && nodemon index.js"
+    		"start": "cd server/ && npm i && nodemon index.js"
 	}
 }
